@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2025 ooberbanana
+Copyright (c) 2025 [Ooberbanana]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,26 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+ADDITIONAL DISCLAIMER FOR CRYPTOGRAPHIC SOFTWARE:
+
+This software implements cryptographic functions and key derivation mechanisms.
+While it uses established cryptographic primitives (AES-256-GCM, PBKDF2, HMAC),
+the cellular automata-based key derivation method is experimental and has not
+undergone formal security audit or peer review.
+
+Users of this software acknowledge that:
+
+1. This software is provided for educational and research purposes.
+2. The security properties of CA-based key derivation are not formally proven.
+3. Users are responsible for their own security assessments before production use.
+4. No warranties are made regarding the security, reliability, or fitness for
+   any particular purpose.
+5. Loss of keys or passwords will result in permanent loss of encrypted data.
+6. The authors are not responsible for any data loss, security breaches, or
+   other damages resulting from use of this software.
+
+RECOMMENDED: Seek independent security review before using in production
+environments or for protecting sensitive data.
